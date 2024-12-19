@@ -2,7 +2,7 @@ package com.jdbc.connt;
 
 public class Main {
     public static void main(String[] args) {
-        EmployeeReposirty repository = new EmployeeDBReposirty();
+        EmployeeRepository repository = new EmployeeDBRepository();
         Employable service = new EmployeeService(repository);
         EmployeeUIManager uiManager = new EmployeeUIManager(service);
 
