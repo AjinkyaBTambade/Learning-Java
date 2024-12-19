@@ -4,7 +4,7 @@ import java.sql.*;
 import java.util.ArrayList;
 import java.util.List;
 
-public class EmployeeDBReposirty implements EmployeeReposirty {
+public class EmployeeDBRepository implements EmployeeRepository {
     static final String URL = "jdbc:mysql://localhost:3306/mydatabase";
     static final String USER = "root";
     static final String PASSWORD = "Root";

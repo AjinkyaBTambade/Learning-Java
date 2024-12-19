@@ -1,7 +1,7 @@
 package com.jdbc.connt;
 import java.util.*;
 
-public interface EmployeeReposirty {
+public interface EmployeeRepository {
 	void create(Employee employee);
 
 	Employee read(int id);
